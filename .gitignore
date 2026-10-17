@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# build output
+dist/
+build/
+coverage/
+
+# env & secrets (never commit tokens / keys)
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+
+# logs
+*.log
+logs/
+
+# editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# local IDE state
+.codebuddy/
