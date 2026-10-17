@@ -26,3 +26,6 @@ Thumbs.db
 
 # local IDE state
 .codebuddy/
+
+# 基线仓库（blender-mcp-slots）作为独立 git 仓库克隆在此，由它自己管理版本
+/blender-mcp-slots/
